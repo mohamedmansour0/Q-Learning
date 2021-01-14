@@ -15,10 +15,10 @@ Total_Iterations = 10 #25000 for training and 100 for validation
 Move_Cost = 1 #discount for every move
 Failure_Cost = 25 #discount for hitting an obstacle
 Extinguishing_Reward = 100 #reward for achieving the fire
-epsilon = 0.0 #0.9 at start_q_table = None, smaller value at a file name inserted
+epsilon = 0.9 #0.9 at start_q_table = None, smaller value at a file name inserted
 Eps_Decay = 0.9998 #the rate by which the epsilon is changed
 SHOW_EVERY = 1 #show every how many episodes, 3000 at start_q_table is None, smaller value otherwise
-start_q_table = "qtable-1606925723.pickle" #None or file name
+start_q_table = None #None or .pickle file name
 Learning_Rate = 0.1
 discount = 0.95
 episode_rewards = []
